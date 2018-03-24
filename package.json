@@ -11,12 +11,12 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:ardna.sayHello"
     ],
-    "main": "./out/extension",
+    "main": "./out/ardna",
     "contributes": {
         "commands": [{
-            "command": "extension.sayHello",
+            "command": "ardna.sayHello",
             "title": "Hello World"
         }]
     },
